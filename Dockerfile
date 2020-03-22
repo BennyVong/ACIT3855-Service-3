@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER "Diego Felix" "difel110185@gmail.com"
+MAINTAINER "Benny Vong" "superbenny123@gmail.com"
 
 RUN apt-get update -y && \
     apt-get install -y python3-pip python3-dev
