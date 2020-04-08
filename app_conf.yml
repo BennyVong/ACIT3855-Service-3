@@ -4,9 +4,9 @@ datastore:
 scheduler:
   period_sec: 5
 eventstore:
-  url: http://ec2-54-213-226-141.us-west-2.compute.amazonaws.com:8090/report/inventory
-  url2: http://ec2-54-213-226-141.us-west-2.compute.amazonaws.com:8090/report/status
+  url: http://ec2-52-25-67-56.us-west-2.compute.amazonaws.com:8090/report/inventory
+  url2: http://ec2-52-25-67-56.us-west-2.compute.amazonaws.com:8090/report/status
 kafka:
-  domain: "ec2-54-213-226-141.us-west-2.compute.amazonaws.com"
+  domain: "ec2-52-25-67-56.us-west-2.compute.amazonaws.com"
   port: "9092"
   topic: "events"
