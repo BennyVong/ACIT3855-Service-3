@@ -10,7 +10,6 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from threading import Thread
 
 from flask_cors import CORS, cross_origin
-from pykafka import KafkaClient
 
 with open('app_conf.yml', 'r') as f:
     app_config = yaml.safe_load(f.read())
